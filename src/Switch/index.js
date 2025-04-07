@@ -9,6 +9,8 @@ const Switch = () => {
         type="checkbox"
         checked={theme === "light"}
         onChange={toggleTheme} // Call toggleTheme on change
+        style={{ display: "none" }} // Hide the default checkbox
+
       />
       <span className="slider round" />
     </label>
